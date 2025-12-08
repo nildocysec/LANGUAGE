@@ -1,4 +1,4 @@
-Welcome! This is my personal learning hub for programming languages.
+Welcome! This is my personal learning hub for programming **LANGUAGE**.
 Here I actively learn, practice, and build mini projects in multiple languages.
 
 ## Standard Folder Structure

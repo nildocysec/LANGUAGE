@@ -1,11 +1,8 @@
 #!/bin/bash
 # =============================================================================
-# Script Name   : archive_large_files.sh
 # Description   : Finds files larger than 50KB in a given directory (limited depth)
 #                 compresses them with gzip, and moves the archives to a target folder.
-# Author        : nildocysec
 # Usage         : ./archive_large_files.sh /path/to/search
-# Requirements  : bash, find, gzip, mv
 # =============================================================================
 
 # ----------------------------- Configuration ---------------------------------

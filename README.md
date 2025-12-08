@@ -22,17 +22,17 @@ LanguageName/
 ## Highlighted Projects
 
 ### Bash Projects
-- [archive_large_files.sh](Bash/Project/archive_large_files.sh)
-- [create_user.sh](Bash/Project/create_user.sh)
-- [dice_throw.sh](Bash/Project/dice_throw.sh)
-- [live_clock.sh](Bash/Project/live_clock.sh)
+- [archive_large_files.sh](baSH/Project/archive_large_files.sh)
+- [create_user.sh](baSH/Project/create_user.sh)
+- [dice_throw.sh](baSH/Project/dice_throw.sh)
+- [live_clock.sh](baSH/Project/live_clock.sh)
 
 ### Python Projects
-- [generate_password.py](Python/Project/generate_password.py)
-- [number_guess.py](Python/Project/number_guess.py)
-- [QR_code.py](Python/Project/QR_code.py)
-- [rock_paper_scissor.py](Python/Project/rock_paper_scissor.py)
-- [roll_dice.py](Python/Project/roll_dice.py)
+- [generate_password.py](PYthon/Project/generate_password.py)
+- [number_guess.py](PYthon/Project/number_guess.py)
+- [QR_code.py](PYthon/Project/QR_code.py)
+- [rock_paper_scissor.py](PYthon/Project/rock_paper_scissor.py)
+- [roll_dice.py](PYthon/Project/roll_dice.py)
 
 ## Feedback & Contributions
 

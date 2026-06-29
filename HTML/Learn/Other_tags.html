@@ -55,11 +55,11 @@
         </tbody>
 
     <table>
-        <p></p>
+        <p> colspan tag is used to merge cells of table</p>
         <thead>
         <tr>
-            <th> Roll No</th>
-            <th> Name </th>
+            <th> Roll No & name</th>
+            
         </tr>
         </thead>
         <tbody>
@@ -78,6 +78,50 @@
     </table>
 
 
+    <h3> Forms:</h3>
+    <p> forms in html are created with form tag to collect data from user. action attribute is used to give file path where these input data will be processed.</p>
+    <form action="/action.php">
+
+        <p> input tag is used to read input. Attribute type to know which kind of data will be entered like text. Attribute placeholder is used to show text to guide user.</p>
+        <input type="text" placeholder="Write UserName">
+        <input type="password" placeholder="password">
+
+        <p> Labels help user with physical disabilities. we use label tag for it with attribute for and value id.</p>
+        <label for="1">
+            <input type="radio" value="STD 11" name="std" id="1">class11
+        </label>
+        <label for="2">
+            <input type="radio" value="STD 12" name="std" id="2">class12
+        </label>
+
+        <p> when we need to select multiple options we use checbox type in input</p><br>
+        <label for="math">
+            <input type="checkbox" value="math" name="subject" id="101">math
+        </label>
+        <label for="bio">
+            <input type="checkbox" value="bio" name="subject" id="102">bio
+        </label>     
+        
+        <p> if you want user to write any feedback, we use textarea tag with attributes as name, id, placeholder, etc. </p>
+        <textarea name="feedback" placeholder="Write feeback here"> FeedBack </textarea>
+
+        <p> select tag is used to add dropdown menu with name, id, etc attibutes. Option tag is used with value for options.</p>
+        <select name="subjects" >
+            <option value="phy">PHY</option>
+            <option value="bio">bio</option>
+        </select>
+
+        <p> input type submit is used to submit form</p>
+        <input type="submit" value="submit">
+
+    </form>
+
+    <h3> Iframe tag : </h3>
+    <p> iframe tag is used to show functional websites inside websites.</p>
+    <iframe width="152" height="152" src="https://www.youtube.com/embed/HcOc7P5BMi4" title="HTML Tutorial for Beginners | Complete HTML with Notes &amp; Code" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <h3>video tag is used to add videos on websites.</h3>
+    <video src="/video.mp4" controls>HTML Learning</video>
 
 </body>
 

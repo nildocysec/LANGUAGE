@@ -1,3 +1,7 @@
+*{
+    color:aliceblue;
+}
+
 h1 {
     color:aquamarine;
 }
@@ -19,4 +23,12 @@ button{
 body{
     background-color:darkgrey;
 
+}
+
+#idh4{
+    color:crimson;
+}
+
+.myclass{
+    color:deeppink;
 }

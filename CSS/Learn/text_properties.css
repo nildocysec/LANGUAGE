@@ -1,0 +1,21 @@
+p{
+    text-align:center;
+    font-weight:800;
+}
+
+h3{
+    text-decoration:overline wavy;
+    font-weight:lighter;
+}
+
+#fonting_style{
+    font-family:'Franklin Gothic Medium';
+}
+
+#lineheight{
+    line-height:5px;
+}
+
+#texttrans{
+    text-transform: uppercase;
+}

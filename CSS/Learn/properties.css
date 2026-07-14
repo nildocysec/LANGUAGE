@@ -1,0 +1,73 @@
+#parents{
+    background-color:purple;
+    height:300px;
+    font-size:25px;
+    
+}
+
+#children{
+    background-color:aqua;
+    height:50%;
+    width:50%;
+    font-size:2em;
+}
+
+#box1, #box2, #box3, #box4, #box5 {
+    background-color:pink;
+    height:100px;
+    width:200px;
+    border:2px solid red;
+    display:inline-block;
+}
+
+#box1{
+    position:static;
+    top:50px;
+}
+
+#box2{
+    position:relative;
+    top:10px;
+}
+
+#box3{
+    position:absolute;
+    right:30px;
+}
+
+#box4{
+    position:fixed;
+    bottom:34px;
+}
+
+#box5{
+    position: sticky;
+    bottom:500px;
+}
+
+#bx1, #bx2, #bx3, #bx4{
+    position:absolute;
+    height:300px;
+    width:500px;
+}
+
+#bx1{
+    left:450px;
+    z-index:0;
+}
+
+#bx2{
+    left:225px;
+    z-index: 3;
+}
+
+#bx3{
+    left:850px;
+    z-index:-5;
+}
+
+.insertingimages{
+    background-color: darkblue;
+    background-image: url("cat.png");
+    background-size:cover;
+}

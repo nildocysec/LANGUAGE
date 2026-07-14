@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Units Position and more</title>
+    <link rel="stylesheet" href="properties.css">
+</head>
+<body>
+    <h1>Units:</h1>
+    <p> pixels is absolute units px. Relative units are percentage, em and rem.</p>
+    <h2>
+        Percentage : 
+    </h2>
+    <p>
+        This size is relative to parent element for child element. for example div inside div.
+    </p>
+    <div id="parents">
+        <h4>Parent</h4>
+        <div id="children">
+            <h4>Child</h4>
+        </div>
+    </div>
+
+    <h2>
+        em : 
+    </h2>
+    <p>
+        for font size relative parent for child element 1em means equal, 2 means double, 0.5em means half etc.
+        for width 1em means equal, 2 means double, 0.5em means half etc of elements own font size.
+
+    </p>
+    
+    <h2>rem : </h2>
+    <p> font size relative to root element that is html element in rem like em.</p>
+    <h4 style="font-size:5rem;">REM</h4>
+
+    <h2> vh and vw</h2>
+    <p> 1vh, 1vw is relative to 1 percent of viewport that is browser screen's height, width</p>
+    <h4 style="background-color:yellow;height:10vh;width:10vw;">VHVW</h4>
+
+body
+    <hr>
+    <h1>position property : </h1>
+    <h2>
+        Static : 
+    </h2>
+    <p> default position that is no effect on top, bottom, left, right, z index property.
+        top/left/right/bottom property means distance of element from top/left/right/bottom of document.
+    </p>
+    <div id="box1">static</div>
+    <div id="box2">relative</div>
+    <div id="box3">absolute</div>
+    <div id="box4">fixed</div>
+    <div id="box5">what!!</div>
+
+
+
+    <h2> relative : </h2>
+    <p> position will change from its initial boundary position.</p>
+
+    <h2>
+        absolute : 
+    </h2>
+    <p>
+        Positioned with respect to closest not static parent element.
+    </p>
+
+    <h2>
+        fixed : 
+    </h2>
+    <p> Positioned relative to document edges like footer at end of document. if we scroll, these element will be always visible and remain fixed in that position.</p>
+
+    <h2>sticky : </h2>
+    <p> Positioned based on user's scroll behaviour. After scrolling as element is encounted in given position it will become fixed.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, doloremque. Ut laborum tempora magnam illo ab reprehenderit, perferendis quasi illum odit mollitia totam inventore deleniti tenetur aperiam dolorem aliquam culpa molestias consequuntur cupiditate? Autem corporis tempora accusamus odit illum quo qui ea molestiae incidunt neque. Inventore impedit, sapiente fugit amet iure velit quod accusamus autem, voluptatum sunt repellendus commodi laudantium nihil quaerat odit magnam ipsum eligendi? Libero incidunt repudiandae beatae. Accusamus, doloribus, quo corrupti saepe aspernatur totam eaque rem reiciendis, nam quasi culpa officia praesentium. Illum, repudiandae a. Consequuntur assumenda veniam iusto voluptatibus omnis autem fugiat accusantium vitae magni incidunt Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod magni quidem laudantium error. Labore iste reiciendis autem maxime. Necessitatibus a asperiores magni? Nemo vitae ex libero quibusdam ipsum laborum similique tempora possimus aspernatur, aut voluptas, enim aperiam accusantium omnis a iure recusandae molestiae veniam commodi corrupti eveniet amet numquam iusto ad. Iure doloribus aspernatur ratione? Unde fugiat quidem nemo iste porro placeat animi natus dolore minima aspernatur, earum laudantium quaerat nulla eos expedita. Assumenda eius cumque soluta consectetur animi facilis iste at laborum, officiis repellendus perspiciatis deleniti asperiores quibusdam pariatur aperiam modi earum, saepe corrupti ad ducimus provident dignissimos illo? Alias asperiores tenetur, sit similique fuga repellat vitae obcaecati! Error quasi quo eum quam, veniam nisi illo saepe libero totam soluta sint non suscipit quaerat similique ipsam deserunt debitis voluptate rem nemo, laboriosam reiciendis sunt eligendi dolor quidem. Natus quia voluptatem hic, expedita molestiae reiciendis ut quis blanditiis, voluptas numquam ipsum consequuntur officia beatae. Enim, nisi? Et deserunt quas ut velit inventore ea modi, repellat reprehenderit. Quaerat labore ipsa dignissimos cupiditate aperiam libero sed aut totam dolorem natus qui doloribus error ducimus, dolores perspiciatis. Est non fugit alias neque ipsa sapiente quae, fuga quas voluptates! Error molestiae aliquam sequi aspernatur quam ducimus quisquam? Totam, quo? Vel delectus eos unde cumque fugiat nostrum adipisci laboriosam, in dignissimos consequuntur maiores, aliquid, ab odit! Aliquid nihil iste et eius totam aut assumenda perspiciatis necessitatibus, magnam corrupti non unde doloribus inventore delectus suscipit, neque dolores quis. Possimus, vitae nemo inventore consequuntur praesentium culpa nesciunt repellat est veniam magnam esse minima laboriosam voluptates a perferendis nulla ipsa ad omnis enim, pariatur in doloribus reprehenderit, quam animi! Quia neque nesciunt minus quae odit? Id consequatur atque adipisci non, deleniti a, voluptatibus sint nemo repellendus, excepturi quisquam reprehenderit culpa maiores nihil voluptas. Quibusdam consequuntur sint aspernatur ab.</p>
+
+
+    <h2> Z-index property</h2>
+    <p>
+        When two or more elements overlap by default element written later comes up. These can be decided otherwise wit z-index. Larger the z index, more up it comes in elements stack. Just like top, bottom, left, right, z-index can be negative and positive, positive means move in +ve part of axes while -ve means move in negative part of axes but unitless.
+    </p>
+    <div id="bx1" style="background-color:red;"></div>
+    <div id="bx2" style="background-color:green;"></div>
+    <div id="bx3" style="background-color:yellow;"></div>
+    <div id="bx4" style="background-color:palevioletred;"></div>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo esse tenetur doloremque temporibus numquam nam nesciunt, nisi voluptates, corporis veritatis distinctio accusamus sequi praesentium minus ipsum quam vero cum, officiis incidunt ab debitis modi. Explicabo temporibus quis pariatur repellendus velit, veritatis odit, expedita fuga labore error deserunt nostrum accusamus voluptas rem et recusandae asperiores perferendis? Placeat dolor et deserunt doloremque nemo tempore voluptatibus similique quod? Facilis at beatae excepturi. Voluptatem quae laboriosam dicta perspiciatis voluptate doloribus molestias deleniti nam cumque illo rem magni repudiandae ad ab, aliquid cupiditate natus velit quam! Repellat non nulla quia ratione sint aut beatae veniam odit natus. Nemo distinctio saepe itaque repellendus quam ex omnis facere blanditiis dolore iure tempore ad maiores eveniet, explicabo molestiae veniam, provident qui nisi sint quaerat nam minima exercitationem unde. Quisquam culpa deserunt laborum sapiente? Sapiente expedita hic quibusdam accusantium optio commodi necessitatibus, consequatur quidem eius numquam voluptatem praesentium voluptas voluptatum aut dicta qui velit aspernatur, asperiores repellendus possimus. Aperiam possimus asperiores ad nobis libero, alias similique facere laboriosam consequatur provident recusandae ab ratione, mollitia ipsa id debitis dolorum dolorem suscipit veniam quaerat quibusdam ex? Doloribus natus blanditiis maiores cupiditate ipsam molestias doloremque consequuntur vel, sit nam magnam, quae totam quo ipsum culpa voluptatum similique est ipsa? Quis dignissimos eveniet, excepturi laudantium optio quo deleniti accusantium repellendus. Quam doloribus similique incidunt magnam. Laboriosam aspernatur quis, cumque error praesentium inventore ratione esse perferendis ducimus sapiente quibusdam incidunt temporibus maxime! Quo, voluptatem culpa. Unde rem mollitia illo rerum aspernatur assumenda voluptas sunt, quod consequatur fuga, itaque voluptate? Consequuntur expedita ipsa earum dolor rem officiis maxime alias quibusdam error praesentium repellat accusantium molestiae dolore, ipsam suscipit ipsum tenetur! Corrupti quos voluptas, esse quod doloribus sed quis laudantium eos similique voluptatibus est vel molestiae. Amet a aperiam in animi sed minus expedita dolor, minima omnis ex deserunt corporis distinctio corrupti. Culpa molestias vero asperiores incidunt sed iure ipsum animi id esse quis maxime modi sit, consequatur nobis corrupti nam error numquam. Voluptas dolor officiis pariatur quidem! Voluptas consequatur praesentium non cupiditate quas, assumenda iste delectus, inventore repellendus culpa corporis iure eligendi consequuntur debitis, beatae blanditiis obcaecati? Recusandae quis officiis, ex in soluta quam voluptatum accusantium autem esse? Maxime, perferendis libero. Molestias voluptatum possimus autem repudiandae aut nesciunt esse quisquam sit earum quis doloremque blanditiis ipsam id aliquam reiciendis ipsum quia, harum laborum labore in magnam. Ullam, magni numquam quibusdam dolores dolore optio. Nobis nostrum vitae ab beatae inventore illum eos obcaecati quae sit, sunt, perspiciatis quaerat commodi sequi! Explicabo exercitationem iste sunt, nesciunt repellat veritatis saepe quia. Inventore corporis tenetur, repellendus explicabo quae, hic nemo eos non, vitae error possimus expedita qui! Vitae reiciendis fugiat veritatis. Pariatur rem dolores dicta harum adipisci laborum. Numquam, reprehenderit. Suscipit, repellat! Esse vero nulla delectus ullam minus reprehenderit quo hic odio distinctio temporibus veniam porro aspernatur quasi, culpa, nam molestias laborum incidunt iure maiores atque sapiente? Quidem quis sed, dolorem facilis eius, cum accusamus fugiat temporibus iure, distinctio voluptas totam dolor amet ducimus odio reprehenderit! Perferendis, quae atque!</p>
+
+    <hr>
+    <h1>
+        Background-image & size properties :
+    </h1>
+    <p>
+        background-image property with value url("PAth to image") is used to insert image in background of any element. It can be resized property with property background-size with values cover or contain or auto.
+    </p>
+    <h1 class="insertingimages">
+        IMAGE
+    </h1>
+    <div class="insertingimages">
+        
+    </div>
+
+</body>
+
+</html>

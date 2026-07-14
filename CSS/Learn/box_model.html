@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <link rel="stylesheet" href="box_model.css">
+</head>
+<body>
+    
+    <h1>Heading</h1>
+    <button>ON/OFF</button>
+    <p>Created heading and button. wrote this paragraph</p>
+    <pre>
+        <p>
+            Any element can be content like heading, button or paragraphs and has width and height.
+            Empty space around content is called padding.
+            Every content has a boundary called border.
+            Space between two contents is called margin.
+
+        </p>
+    </pre>
+
+    <hr>
+    <h1> Box Model</h1>
+    <h2> Height : </h2>
+    <p>
+        Height is vertical area occupied by content area of an element. by default it is height of content only.
+        For example below div has 100 px height.
+        <div>
+            <p>click inspect</p>
+        </div>
+    </p>
+
+    <h2> Width : </h2>
+    <p>
+        Width is horizontal area occupied by content area of an element. by default it is full widht of screen.
+        For example below div has 100 px width.
+        <div>
+            <p>click inspect</p>
+        </div>
+    </p>
+
+    <h2> Border : </h2>
+    <p>
+        Border has properties like border-style with possible values of solid, dotted, dashed, etc.
+        It also has properties like border-color, border-width etc. for example below heading and para in div with id borderprop.
+        <div id="borderprop">
+            <h3>click inspect</h3>
+            <p> 
+                it has dahsed border of red color, height 400px and width 900px for content and border width 5px and background color pink. Also text is aligned in box not page with text-align property.
+                we can use border property shorthand with values saperated by space for border's width, style, color etc. like, border : 10px solid red;
+                border-radius property with values either in px or percentage makes border round, more radius more round shape like current radius is 5%.
+
+
+            </p>
+        </div>
+    </p>
+
+    <h2>Padding : </h2>
+    <p>
+        It is space between border and content. properties padding-left, padding-right, padding-top, padding-bottom used to give padding from respective sides. For example below element:
+    </p>
+    <div id="paddingprop">
+        <p> 
+            This has only padding left and bottom of 25px.
+            padding shorthand can be used with values clockwise from top to left saperated by space like, padding:1px 2px 4px 8px;
+
+        </p>
+    </div>
+
+    <h2> Margin</h2>
+    <p> It is space between two boxes. Example below margin between two headings</p>
+    <h4>One</h4>
+    <h4>Two</h4>
+    <p>
+        Similar to padding we have margin shorthand.
+    </p>
+</body>
+</html>

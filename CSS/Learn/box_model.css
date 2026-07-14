@@ -33,3 +33,9 @@ h4{
     color:white;
     padding:25px;
 }
+
+#disprop{
+    background-color:yellow;
+    color:black;
+    display:inline;
+}

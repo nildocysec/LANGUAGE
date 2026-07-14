@@ -1,0 +1,13 @@
+div {
+    height: 250px;
+    width: 250px;
+    background-color: black;
+    background-image: url("../Learn/cat.png");
+    background-repeat: no-repeat; /* Prevents the image from tiling */
+    background-position: center;  /* Centers the cat in the box */
+    background-size: contain;       /* Forces it to scale and fill the 250x250 space */
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    color:red;
+}
